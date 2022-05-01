@@ -19,4 +19,4 @@ to bring this file back to local and update. Everything was automatic, no add, c
 
 ## another remote edit (just this line)
 
-ALl good, making a local edit
+All good, making a local edit
