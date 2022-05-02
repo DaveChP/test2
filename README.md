@@ -15,15 +15,15 @@ While on remote, the file was edited to insert the heading above. It was committ
 
 git pull origin main
 
+to bring this file back to local and update. Everything was automatic, no add, commit or merge was needed. When I opened this file locally, the remote heading was there. I then added this text that follows the last heading and will now add, commit and push it.
+
+## another remote edit (just this line)
+
+All good, making a local edit
+
 New clone on remote, created in new directory named as second argument to git clone:
 
 ```
 git clone git@github.com:DaveChP/test2.git newDirectory
 ```
 
-
-to bring this file back to local and update. Everything was automatic, no add, commit or merge was needed. When I opened this file locally, the remote heading was there. I then added this text that follows the last heading and will now add, commit and push it.
-
-## another remote edit (just this line)
-
-All good, making a local edit
