@@ -27,3 +27,23 @@ New clone on remote, created in new directory named as second argument to git cl
 git clone git@github.com:DaveChP/test2.git newDirectory
 ```
 
+## Local Pull, Modify, Push without Merge
+This file is in a directory called 'new', which is a local repository cloned from the remote yesterday. I have just pulled the origin using:
+
+```
+git pull remote main
+```
+and was told I'm up to date. Before modifying this file, I made a new branch to work on:
+
+```
+git checkout -b newBranch
+```
+
+After this edit, I will add and commit these changes but not merge the branch. Instead I will push the branch for review on remote using:
+
+```
+git push origin newBranch
+```
+
+
+
